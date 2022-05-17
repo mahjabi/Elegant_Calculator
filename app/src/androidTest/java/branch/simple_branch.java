@@ -3,6 +3,7 @@ package branch;
 public class simple_branch {
     String name,id;
     float cgpa;
+
     double income;
 
     public simple_branch(String name, String id, float cgpa, double income) {
@@ -18,6 +19,7 @@ public class simple_branch {
 
     public void setIncome(double income) {
         this.income = income;
+
     }
 
     public String getName() {
