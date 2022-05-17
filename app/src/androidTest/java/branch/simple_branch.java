@@ -3,22 +3,23 @@ package branch;
 public class simple_branch {
     String name,id;
     float cgpa;
-    int number;
 
+    double income;
 
-    public simple_branch(String name, String id, float cgpa, int number) {
+    public simple_branch(String name, String id, float cgpa, double income) {
         this.name = name;
         this.id = id;
         this.cgpa = cgpa;
-        this.number = number;
+        this.income = income;
     }
 
-    public int getNumber() {
-        return number;
+    public double getIncome() {
+        return income;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setIncome(double income) {
+        this.income = income;
+
     }
 
     public String getName() {
